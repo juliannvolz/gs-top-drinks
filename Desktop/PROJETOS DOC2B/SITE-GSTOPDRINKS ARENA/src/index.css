@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bodoni Moda", "Bodoni 72", Didot, Georgia, serif;
+  --font-sans: "Jost", "Futura", "Century Gothic", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Xanh Mono", ui-monospace, Menlo, monospace;
+
+  --animate-marquee: marquee 50s linear infinite;
+  --animate-wave: wave 2.4s linear infinite;
+  --animate-spin-slow: spin-slow 26s linear infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes wave {
+    from { transform: translateX(0); }
+    to { transform: translateX(-30px); }
+  }
+  @keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+}
+
+/* Tokens de tema trocados em tempo real por segmento */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg2: var(--bg2);
+  --color-fg: var(--fg);
+  --color-acc: var(--acc);
+  --color-acc2: var(--acc2);
+  --color-acc3: var(--acc3);
+  --color-onacc: var(--on-acc);
+}
+
+:root {
+  --bg: #0a0a0a;
+  --bg2: #131110;
+  --fg: #f6f0e6;
+  --acc: #fe7802;
+  --acc2: #fdb500;
+  --acc3: #e8341c;
+  --on-acc: #0a0a0a;
+  color-scheme: dark;
+}
+
+html,
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  transition: background-color 0.7s ease, color 0.7s ease;
+}
+
+::selection {
+  background: var(--acc);
+  color: var(--on-acc);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: color-mix(in oklab, var(--fg) 22%, transparent);
+  border: 3px solid var(--bg);
+}
+
+/* Assinatura do logo GS: sombra deslocada laranja + âmbar */
+.gs-offset {
+  text-shadow:
+    -0.045em 0.035em 0 var(--acc),
+    -0.085em 0.068em 0 var(--acc2);
+}
+
+/* Pontilhado de cardápio entre nome e preço */
+.leader {
+  flex: 1 1 auto;
+  min-width: 1.25rem;
+  border-bottom: 1.5px dotted currentColor;
+  opacity: 0.32;
+  transform: translateY(-0.3em);
+}
+
+/* Bordas serrilhadas da comanda */
+.receipt {
+  --zz: 14px;
+  -webkit-mask:
+    conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / var(--zz) 51% repeat-x,
+    conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / var(--zz) 51% repeat-x;
+  mask:
+    conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) top / var(--zz) 51% repeat-x,
+    conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) bottom / var(--zz) 51% repeat-x;
+}
+
+@media print {
+  html,
+  body {
+    background: #fff !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee,
+  .animate-wave,
+  .animate-spin-slow {
+    animation: none !important;
+  }
+}

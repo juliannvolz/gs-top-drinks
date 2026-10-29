@@ -1,0 +1,773 @@
+{
+  "version": "1.0",
+  "generated": "2026-10-29T21:37:57.889Z",
+  "images": {
+    "caipirinha-maracuja-limao": {
+      "original": "CAIPIRINHA MARACUJA E LIMAO.jpg",
+      "slug": "caipirinha-maracuja-limao",
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/drinks/caipirinha-maracuja-limao-400w.webp",
+          "size": 29642
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/caipirinha-maracuja-limao-800w.webp",
+          "size": 86766
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/caipirinha-maracuja-limao-800w.avif",
+          "size": 43633
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/drinks/caipirinha-maracuja-limao.jpg",
+        "size": 172475
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAbABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABcQAQEBAQAAAAAAAAAAAAAAAAARAQL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A5/OHFmFACI4gLOWw2aAxNQP/2Q==",
+      "alt": "caipirinha maracuja limao",
+      "subDir": "drinks"
+    },
+    "caipirinha-morango": {
+      "original": "CAIPIRINHA MORANGO.jpg",
+      "slug": "caipirinha-morango",
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/drinks/caipirinha-morango-400w.webp",
+          "size": 40242
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/caipirinha-morango-800w.webp",
+          "size": 109684
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/caipirinha-morango-800w.avif",
+          "size": 54412
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/drinks/caipirinha-morango.jpg",
+        "size": 202742
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAbABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAwABAgX/xAAXEAEBAQEAAAAAAAAAAAAAAAAAAQIR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A8zJc0WSRFhJU56gFHcHCQVqagf/Z",
+      "alt": "caipirinha morango",
+      "subDir": "drinks"
+    },
+    "hero-capa": {
+      "original": "CAPA SITE ATUAL.png",
+      "slug": "hero-capa",
+      "width": 2559,
+      "height": 998,
+      "format": "png",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/segments/hero-capa-400w.webp",
+          "size": 5066
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/segments/hero-capa-800w.webp",
+          "size": 13284
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/segments/hero-capa-1200w.webp",
+          "size": 23336
+        },
+        {
+          "width": 1600,
+          "path": "/gs/images/segments/hero-capa-1600w.webp",
+          "size": 33598
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/segments/hero-capa-800w.avif",
+          "size": 7732
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/segments/hero-capa-1200w.avif",
+          "size": 12738
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/segments/hero-capa.jpg",
+        "size": 100172
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AyFAFAQf/2Q==",
+      "alt": "hero capa",
+      "subDir": "segments"
+    },
+    "coquetel-colorido": {
+      "original": "COQUETEL COLORIDO.jpg",
+      "slug": "coquetel-colorido",
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/drinks/coquetel-colorido-400w.webp",
+          "size": 33998
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/coquetel-colorido-800w.webp",
+          "size": 102822
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/coquetel-colorido-800w.avif",
+          "size": 49878
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/drinks/coquetel-colorido.jpg",
+        "size": 190745
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAXEAEBAQEAAAAAAAAAAAAAAAAAAREC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDlSLkLlcQLAYBnKrUQxVaEgR//2Q==",
+      "alt": "coquetel colorido",
+      "subDir": "drinks"
+    },
+    "coquetel-martini-limao": {
+      "original": "COQUETEL MARTINI LIMAO.jpg",
+      "slug": "coquetel-martini-limao",
+      "width": 1087,
+      "height": 1447,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/drinks/coquetel-martini-limao-400w.webp",
+          "size": 19616
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/coquetel-martini-limao-800w.webp",
+          "size": 55192
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/coquetel-martini-limao-800w.avif",
+          "size": 29996
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/drinks/coquetel-martini-limao.jpg",
+        "size": 125692
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAbABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQX/xAAYEAEBAQEBAAAAAAAAAAAAAAAAAQIREv/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/APJjvCRuQFPgr5FpxnKkieVsqiHkbGXR/9k=",
+      "alt": "coquetel martini limao",
+      "subDir": "drinks"
+    },
+    "coquetel-tropical": {
+      "original": "COQUETEL TROPICAL.jpg",
+      "slug": "coquetel-tropical",
+      "width": 900,
+      "height": 1600,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/drinks/coquetel-tropical-400w.webp",
+          "size": 24792
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/coquetel-tropical-800w.webp",
+          "size": 67868
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/coquetel-tropical-800w.avif",
+          "size": 40830
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/drinks/coquetel-tropical.jpg",
+        "size": 116830
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAkABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwX/xAAWEAEBAQAAAAAAAAAAAAAAAAAAARH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APOkWxYqK52DVgISrrnKuorVoxookABAAf/Z",
+      "alt": "coquetel tropical",
+      "subDir": "drinks"
+    },
+    "dados-3": {
+      "original": "dados3.png",
+      "slug": "dados-3",
+      "width": 2559,
+      "height": 997,
+      "format": "png",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/gallery/dados-3-400w.webp",
+          "size": 6780
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/gallery/dados-3-800w.webp",
+          "size": 16690
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/gallery/dados-3-1200w.webp",
+          "size": 26824
+        },
+        {
+          "width": 1600,
+          "path": "/gs/images/gallery/dados-3-1600w.webp",
+          "size": 37574
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/gallery/dados-3-800w.avif",
+          "size": 8368
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/gallery/dados-3-1200w.avif",
+          "size": 12360
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/gallery/dados-3.jpg",
+        "size": 104057
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAED/8QAFRABAQAAAAAAAAAAAAAAAAAAAAH/xAAWAQEBAQAAAAAAAAAAAAAAAAABBAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDZYDOWKAA//9k=",
+      "alt": "dados 3",
+      "subDir": "gallery"
+    },
+    "gilmar-site": {
+      "original": "DONO-SITE.png",
+      "slug": "gilmar-site",
+      "width": 2559,
+      "height": 997,
+      "format": "png",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/team/gilmar-site-400w.webp",
+          "size": 3098
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/team/gilmar-site-800w.webp",
+          "size": 8128
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/team/gilmar-site-1200w.webp",
+          "size": 15156
+        },
+        {
+          "width": 1600,
+          "path": "/gs/images/team/gilmar-site-1600w.webp",
+          "size": 22174
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/team/gilmar-site-800w.avif",
+          "size": 5831
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/team/gilmar-site-1200w.avif",
+          "size": 10234
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/team/gilmar-site.jpg",
+        "size": 73638
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDJUAAAf//Z",
+      "alt": "gilmar site",
+      "subDir": "team"
+    },
+    "drink-laranja-alecrim": {
+      "original": "DRINK LARANJA ALECRIM.jpg",
+      "slug": "drink-laranja-alecrim",
+      "width": 752,
+      "height": 1194,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/drinks/drink-laranja-alecrim-400w.webp",
+          "size": 22996
+        }
+      ],
+      "avif": [],
+      "fallback": {
+        "path": "/gs/images/drinks/drink-laranja-alecrim.jpg",
+        "size": 77979
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAgABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAX/xAAXEAEBAQEAAAAAAAAAAAAAAAAAAQIS/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AOXMn4NiKzLNVDgL8goTCsrPnR5oFLQn0Af/2Q==",
+      "alt": "drink laranja alecrim",
+      "subDir": "drinks"
+    },
+    "gilmar-1": {
+      "original": "FOTODONO1.jpg",
+      "slug": "gilmar-1",
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/team/gilmar-1-400w.webp",
+          "size": 10040
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/team/gilmar-1-800w.webp",
+          "size": 28370
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/team/gilmar-1-800w.avif",
+          "size": 16455
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/team/gilmar-1.jpg",
+        "size": 72629
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAbABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACBf/EABUQAQEAAAAAAAAAAAAAAAAAAAAR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDnoUVFKFSozVQANQQP/9k=",
+      "alt": "gilmar 1",
+      "subDir": "team"
+    },
+    "gilmar-2": {
+      "original": "FOTODONO2.jpg",
+      "slug": "gilmar-2",
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/team/gilmar-2-400w.webp",
+          "size": 10286
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/team/gilmar-2-800w.webp",
+          "size": 27696
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/team/gilmar-2-800w.avif",
+          "size": 16033
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/team/gilmar-2.jpg",
+        "size": 68763
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAbABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABUQAQEAAAAAAAAAAAAAAAAAAAAR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDnCUooJQRKlQBaMgP/2Q==",
+      "alt": "gilmar 2",
+      "subDir": "team"
+    },
+    "insta-atual": {
+      "original": "INSTA ATUAL.png",
+      "slug": "insta-atual",
+      "width": 952,
+      "height": 597,
+      "format": "png",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/gallery/insta-atual-400w.webp",
+          "size": 8528
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/gallery/insta-atual-800w.webp",
+          "size": 24574
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/gallery/insta-atual-800w.avif",
+          "size": 16541
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/gallery/insta-atual.jpg",
+        "size": 42737
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AygFEAB//2Q==",
+      "alt": "insta atual",
+      "subDir": "gallery"
+    },
+    "mais-dados-1": {
+      "original": "MAIS.DADOS.png",
+      "slug": "mais-dados-1",
+      "width": 2559,
+      "height": 997,
+      "format": "png",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/gallery/mais-dados-1-400w.webp",
+          "size": 5054
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/gallery/mais-dados-1-800w.webp",
+          "size": 14654
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/gallery/mais-dados-1-1200w.webp",
+          "size": 25456
+        },
+        {
+          "width": 1600,
+          "path": "/gs/images/gallery/mais-dados-1-1600w.webp",
+          "size": 35274
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/gallery/mais-dados-1-800w.avif",
+          "size": 9364
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/gallery/mais-dados-1-1200w.avif",
+          "size": 15091
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/gallery/mais-dados-1.jpg",
+        "size": 93497
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAIABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAX/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJYAAAP/2Q==",
+      "alt": "mais dados 1",
+      "subDir": "gallery"
+    },
+    "mais-dados-2": {
+      "original": "MAIS.DADOS2.png",
+      "slug": "mais-dados-2",
+      "width": 2559,
+      "height": 997,
+      "format": "png",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/gallery/mais-dados-2-400w.webp",
+          "size": 6780
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/gallery/mais-dados-2-800w.webp",
+          "size": 16690
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/gallery/mais-dados-2-1200w.webp",
+          "size": 26824
+        },
+        {
+          "width": 1600,
+          "path": "/gs/images/gallery/mais-dados-2-1600w.webp",
+          "size": 37574
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/gallery/mais-dados-2-800w.avif",
+          "size": 8368
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/gallery/mais-dados-2-1200w.avif",
+          "size": 12360
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/gallery/mais-dados-2.jpg",
+        "size": 104057
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAED/8QAFRABAQAAAAAAAAAAAAAAAAAAAAH/xAAWAQEBAQAAAAAAAAAAAAAAAAABBAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDZYDOWKAA//9k=",
+      "alt": "mais dados 2",
+      "subDir": "gallery"
+    },
+    "moscow-mule": {
+      "original": "MOSCOWMULE.jpg",
+      "slug": "moscow-mule",
+      "width": 1086,
+      "height": 1448,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/drinks/moscow-mule-400w.webp",
+          "size": 35232
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/moscow-mule-800w.webp",
+          "size": 114644
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/drinks/moscow-mule-800w.avif",
+          "size": 56822
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/drinks/moscow-mule.jpg",
+        "size": 210710
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAbABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACBf/EABUQAQEAAAAAAAAAAAAAAAAAAAAB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDlwqFBhFAYWYRUggf/2Q==",
+      "alt": "moscow mule",
+      "subDir": "drinks"
+    },
+    "wedding": {
+      "original": "wedding.jpg",
+      "slug": "wedding",
+      "width": 1024,
+      "height": 1536,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/gallery/wedding-400w.webp",
+          "size": 33042
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/gallery/wedding-800w.webp",
+          "size": 109118
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/gallery/wedding-800w.avif",
+          "size": 53878
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/gallery/wedding.jpg",
+        "size": 213142
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAeABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABUQAQEAAAAAAAAAAAAAAAAAAAAB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDlRSALIoUsCASAFP/Z",
+      "alt": "wedding",
+      "subDir": "gallery"
+    },
+    "hero-main": {
+      "original": "hero.jpg",
+      "slug": "hero-main",
+      "width": 1024,
+      "height": 1536,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/segments/hero-main-400w.webp",
+          "size": 29306
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/segments/hero-main-800w.webp",
+          "size": 75684
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/segments/hero-main-800w.avif",
+          "size": 39270
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/segments/hero-main.jpg",
+        "size": 169378
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAeABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAVEAEBAAAAAAAAAAAAAAAAAAAAAf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A51TVVFSogQIaVNMgUgwQ/9k=",
+      "alt": "hero main",
+      "subDir": "segments"
+    },
+    "lineup": {
+      "original": "lineup.jpg",
+      "slug": "lineup",
+      "width": 1536,
+      "height": 1024,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/segments/lineup-400w.webp",
+          "size": 13414
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/segments/lineup-800w.webp",
+          "size": 39980
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/segments/lineup-1200w.webp",
+          "size": 74458
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/segments/lineup-800w.avif",
+          "size": 20279
+        },
+        {
+          "width": 1200,
+          "path": "/gs/images/segments/lineup-1200w.avif",
+          "size": 38360
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/segments/lineup.jpg",
+        "size": 172649
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFRABAQAAAAAAAAAAAAAAAAAAABH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8Ay4RUIzVRBcCj/9k=",
+      "alt": "lineup",
+      "subDir": "segments"
+    },
+    "segment-aniversario": {
+      "original": "seg-aniversario.jpg",
+      "slug": "segment-aniversario",
+      "width": 1024,
+      "height": 1536,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/segments/segment-aniversario-400w.webp",
+          "size": 52498
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/segments/segment-aniversario-800w.webp",
+          "size": 136412
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/segments/segment-aniversario-800w.avif",
+          "size": 71226
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/segments/segment-aniversario.jpg",
+        "size": 263632
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAeABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDm4Y0lYdEAIa0ZlWBAoi//2Q==",
+      "alt": "segment aniversario",
+      "subDir": "segments"
+    },
+    "segment-casamento": {
+      "original": "seg-casamento.jpg",
+      "slug": "segment-casamento",
+      "width": 1024,
+      "height": 1536,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/segments/segment-casamento-400w.webp",
+          "size": 40492
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/segments/segment-casamento-800w.webp",
+          "size": 97110
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/segments/segment-casamento-800w.avif",
+          "size": 48648
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/segments/segment-casamento.jpg",
+        "size": 205541
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAeABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAYEAEAAwEAAAAAAAAAAAAAAAAAARESAv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDwZcyrkphuJZFaCkUmGVOoTlFBiwH/2Q==",
+      "alt": "segment casamento",
+      "subDir": "segments"
+    },
+    "segment-corporativo": {
+      "original": "seg-corporativo.jpg",
+      "slug": "segment-corporativo",
+      "width": 1024,
+      "height": 1536,
+      "format": "jpeg",
+      "webp": [
+        {
+          "width": 400,
+          "path": "/gs/images/segments/segment-corporativo-400w.webp",
+          "size": 27018
+        },
+        {
+          "width": 800,
+          "path": "/gs/images/segments/segment-corporativo-800w.webp",
+          "size": 77088
+        }
+      ],
+      "avif": [
+        {
+          "width": 800,
+          "path": "/gs/images/segments/segment-corporativo-800w.avif",
+          "size": 40446
+        }
+      ],
+      "fallback": {
+        "path": "/gs/images/segments/segment-corporativo.jpg",
+        "size": 172375
+      },
+      "blurPlaceholder": "data:image/jpeg;base64,/9j/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAeABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFRABAQAAAAAAAAAAAAAAAAAAAAH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AzkoNVlAEQAEAQf/Z",
+      "alt": "segment corporativo",
+      "subDir": "segments"
+    }
+  }
+}
