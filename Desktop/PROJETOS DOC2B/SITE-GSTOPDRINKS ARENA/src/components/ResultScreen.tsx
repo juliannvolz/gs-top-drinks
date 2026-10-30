@@ -85,7 +85,11 @@ export default function ResultScreen({ segment, guests, packageId, selected, onB
   };
 
   const handleDownloadPDF = async () => {
-    await salvarComanda();
+    try {
+      await salvarComanda();
+    } catch (e) {
+      console.warn("Falha ao salvar comanda", e);
+    }
     try {
       await generateComandaPDF({
         segment: seg,
@@ -167,7 +171,7 @@ export default function ResultScreen({ segment, guests, packageId, selected, onB
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
               <Btn
                 onClick={async () => {
-                  await salvarComanda();
+                  try { await salvarComanda(); } catch (e) { console.warn("Falha ao salvar comanda", e); }
                   window.open(waLink(msg), "_blank");
                 }}
                 icon={<MessageCircle className="h-4 w-4" />}>
@@ -184,7 +188,7 @@ export default function ResultScreen({ segment, guests, packageId, selected, onB
               <TextLink onClick={onBack} back>
                 Ajustar carta
               </TextLink>
-              <TextLink onClick={async () => { await salvarComanda(); window.print(); }}>Imprimir comanda</TextLink>
+              <TextLink onClick={async () => { try { await salvarComanda(); } catch (e) { console.warn("Falha ao salvar comanda", e); } window.print(); }}>Imprimir comanda</TextLink>
               <TextLink onClick={onRestart}>Nova simulação</TextLink>
             </div>
           </Reveal>
