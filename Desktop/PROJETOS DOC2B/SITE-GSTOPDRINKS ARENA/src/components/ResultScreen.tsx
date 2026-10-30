@@ -4,6 +4,7 @@ import { MessageCircle, Download } from "lucide-react";
 import { AnimatedMoney, Btn, EASE, IgIcon, Label, Reveal, TextLink } from "./ui";
 import { useTheme } from "../theme";
 import { generateComandaPDF } from "../utils/pdf";
+import { saveComanda } from "../lib/supabase";
 import {
   CONTACT,
   PACKAGES,
@@ -23,6 +24,8 @@ interface Props {
   guests: GuestsOption;
   packageId: PackageId;
   selected: string[];
+  leadNome?: string;
+  leadTelefone?: string;
   onBack: () => void;
   onRestart: () => void;
 }
@@ -61,7 +64,28 @@ export default function ResultScreen({ segment, guests, packageId, selected, onB
   const paper = theme.mode === "light" ? "#fffdf8" : "#f7f1e6";
   const brandVars = { "--acc": "#fe7802", "--acc2": "#fdb500" } as CSSProperties;
 
+  const drinksNomes = drinks.map((d) => d.name).join(", ");
+
+  const salvarComanda = async (): Promise<boolean> => {
+    if (!leadTelefone) return true; // sem telefone obrigatório, não bloqueia
+    const resultado = await saveComanda({
+      nome_cliente: leadNome ?? null,
+      telefone: leadTelefone,
+      segmento: seg.name,
+      convidados: guests.estimate,
+      pacote: pkg.name,
+      drinks: drinksNomes,
+      valor_por_pessoa: perPerson,
+      valor_total_evento: totalEvent,
+    });
+    if (!resultado.ok) {
+      console.warn("Comanda não salva no banco:", resultado.error);
+    }
+    return resultado.ok;
+  };
+
   const handleDownloadPDF = async () => {
+    await salvarComanda();
     await generateComandaPDF({
       segment: seg,
       guests,
@@ -126,7 +150,12 @@ export default function ResultScreen({ segment, guests, packageId, selected, onB
 
           <Reveal delay={0.2} className="print:hidden">
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
-              <Btn href={waLink(msg)} icon={<MessageCircle className="h-4 w-4" />}>
+              <Btn
+                onClick={async () => {
+                  await salvarComanda();
+                  window.open(waLink(msg), "_blank");
+                }}
+                icon={<MessageCircle className="h-4 w-4" />}>
                 Enviar comanda no WhatsApp
               </Btn>
               <Btn href={CONTACT.instagram} variant="line" arrow={false} icon={<IgIcon size={16} />}>
@@ -140,7 +169,7 @@ export default function ResultScreen({ segment, guests, packageId, selected, onB
               <TextLink onClick={onBack} back>
                 Ajustar carta
               </TextLink>
-              <TextLink onClick={() => window.print()}>Imprimir comanda</TextLink>
+              <TextLink onClick={async () => { await salvarComanda(); window.print(); }}>Imprimir comanda</TextLink>
               <TextLink onClick={onRestart}>Nova simulação</TextLink>
             </div>
           </Reveal>

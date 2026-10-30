@@ -8,7 +8,9 @@ import EssentialsScreen from "./components/quiz/EssentialsScreen";
 import SegmentScreen from "./components/SegmentScreen";
 import PackageScreen from "./components/PackageScreen";
 import DrinksScreen from "./components/DrinksScreen";
+import LeadCaptureScreen from "./components/LeadCaptureScreen";
 import ResultScreen from "./components/ResultScreen";
+import Admin from "./pages/Admin";
 import {
   BRAND_THEME,
   CONTACT,
@@ -23,7 +25,7 @@ import {
 import { ThemeCtx } from "./theme";
 import { initGA, AnalyticsEvents } from "./utils/analytics";
 
-type Step = "intro" | "q0" | "q1" | "q2" | "q3" | "segment" | "package" | "drinks" | "result";
+type Step = "intro" | "q0" | "q1" | "q2" | "q3" | "segment" | "package" | "drinks" | "lead" | "result";
 
 const STEP_INDEX: Record<Step, number> = {
   intro: -1,
@@ -34,9 +36,10 @@ const STEP_INDEX: Record<Step, number> = {
   segment: 4,
   package: 5,
   drinks: 6,
-  result: 7,
+  lead: 7,
+  result: 8,
 };
-const STEP_NAMES = ["Momento", "Convidados", "Estilo", "Essenciais", "Destino", "Pacote", "Carta", "Comanda"];
+const STEP_NAMES = ["Momento", "Convidados", "Estilo", "Essenciais", "Destino", "Pacote", "Carta", "Contato", "Comanda"];
 
 const screen = {
   initial: { opacity: 0, y: 24 },
@@ -68,6 +71,8 @@ export default function App() {
   const [essentials, setEssentials] = useState<string[]>([]);
   const [packageId, setPackageId] = useState<PackageId>("intermediario");
   const [selected, setSelected] = useState<string[]>([]);
+  const [leadNome, setLeadNome] = useState<string>("");
+  const [leadTelefone, setLeadTelefone] = useState<string>("");
 
   const theme = segment ? SEGMENTS[segment].theme : BRAND_THEME;
   const guests = useMemo(() => GUEST_OPTIONS.find((g) => g.id === guestId) ?? GUEST_OPTIONS[1], [guestId]);
@@ -138,6 +143,8 @@ export default function App() {
   const goPackage = (p: PackageId) => {
     setPackageId(p);
     setSelected(seedSelection(PACKAGES[p]));
+    setLeadNome("");
+    setLeadTelefone("");
     AnalyticsEvents.packageSelect(p, segment ?? "unknown");
     setStep("drinks");
   };
@@ -164,6 +171,8 @@ export default function App() {
     setVibe(null);
     setEssentials([]);
     setSelected([]);
+    setLeadNome("");
+    setLeadTelefone("");
     setStep("intro");
   };
 
@@ -269,8 +278,21 @@ export default function App() {
                   packageId={packageId}
                   selected={selected}
                   onChange={handleDrinkChange}
-                  onNext={() => setStep("result")}
+                  onNext={() => setStep("lead")}
                   onBack={() => setStep("package")}
+                />
+              </motion.div>
+            )}
+
+            {step === "lead" && segment && (
+              <motion.div key="lead" {...screen}>
+                <LeadCaptureScreen
+                  onNext={({ nome, telefone }) => {
+                    setLeadNome(nome || "");
+                    setLeadTelefone(telefone);
+                    setStep("result");
+                  }}
+                  onBack={() => setStep("drinks")}
                 />
               </motion.div>
             )}
@@ -282,10 +304,18 @@ export default function App() {
                   guests={guests}
                   packageId={packageId}
                   selected={selected}
+                  leadNome={leadNome}
+                  leadTelefone={leadTelefone}
                   onBack={() => setStep("drinks")}
                   onRestart={restart}
                 />
               </motion.div>
+            )}
+
+            {typeof window !== "undefined" && window.location.pathname === "/admin" && (
+              <div className="min-h-screen">
+                <Admin />
+              </div>
             )}
           </AnimatePresence>
         </main>

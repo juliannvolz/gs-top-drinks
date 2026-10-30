@@ -1,0 +1,91 @@
+================================================================================
+GS TOP DRINKS — SISTEMA DE CONTROLE DE COMANDAS
+Guia rápido para o dono da empresa
+================================================================================
+
+O QUE FOI FEITO
+---------------
+Seu site de simulação de open bar (GS Top Drinks) agora grava automaticamente
+cada cliente que gera uma comanda. Assim, se a pessoa simular um orçamento e não
+entrar em contato pelo WhatsApp, você ainda tem o telefone e os dados do evento
+para ligar ou mandar mensagem depois e não perder o cliente.
+
+Onde acessar:
+https://gs-top-drinks.vercel.app/admin
+
+Senha de acesso:
+gstropdrinks1
+
+(Recomendamos trocar essa senha depois do primeiro acesso, se quiser.)
+
+================================================================================
+COMO FUNCIONA NO DIA A DIA
+================================================================================
+
+1. Um cliente acessa seu site e faz a simulação do evento (escolhe tipo de
+   evento, número de convidados, pacote e drinks).
+
+2. Antes de ver a comanda final, o site pede o telefone (WhatsApp) e o nome
+   (opcional) da pessoa.
+
+3. Quando o cliente gera a comanda (baixa PDF, imprime ou manda pelo WhatsApp),
+   os dados são salvos automaticamente no sistema:
+   - Telefone
+   - Nome (se preencheu)
+   - Tipo de evento (casamento, aniversário, corporativo, etc.)
+   - Quantidade de convidados
+   - Pacote escolhido
+   - Drinks selecionados
+   - Valor por pessoa e valor total estimado
+   - Data e hora da simulação
+
+4. Você entra em https://gs-top-drinks.vercel.app/admin com a senha acima e vê
+   uma lista com todos os clientes que simularam orçamento.
+
+5. Na lista você pode:
+   - Clicar no telefone para abrir direto o WhatsApp da pessoa.
+   - Marcar o status como "Pendente", "Contatado" ou "Fechado".
+   - Buscar por telefone, nome ou tipo de evento.
+
+================================================================================
+POR QUE ISSO AJUDA A NÃO PERDER CLIENTES
+================================================================================
+
+Antes, se o cliente gerava a comanda e fechava o navegador sem mandar WhatsApp,
+o contato se perdia. Agora todos ficam registrados. Você pode ver quem demonstrou
+interesse e entrar em contato proativamente para fechar o orçamento.
+
+================================================================================
+SENHA E SEGURANÇA
+================================================================================
+
+A senha atual é: gstropdrinks1
+
+Se quiser trocar, fale com o desenvolvedor para atualizar no sistema.
+Não compartilhe essa senha com clientes — é só para uso interno da empresa.
+
+================================================================================
+RESUMO DO FLUXO
+================================================================================
+
+Cliente acessa site
+    ├─ Faz a simulação do evento
+    ├─ Preenche telefone e nome
+    ├─ Gera a comanda (PDF / WhatsApp / Imprimir)
+    └─ Dados salvos automaticamente
+
+Dono acessa /admin
+    ├─ Vê lista de todos que simularam
+    ├─ Clica no telefone para mandar WhatsApp
+    └─ Marca como Contatado ou Fechado
+
+================================================================================
+SUPORTE
+================================================================================
+
+Em caso de dúvidas ou problemas no acesso, entre em contato com o desenvolvedor
+que criou este site.
+
+================================================================================
+Fim do guia
+================================================================================
