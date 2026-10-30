@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MessageCircle, Download } from "lucide-react";
 import { AnimatedMoney, Btn, EASE, IgIcon, Label, Reveal, TextLink } from "./ui";
 import { useTheme } from "../theme";
-import { generateComandaPDF } from "../utils/pdf";
+import { generateComandaPDF, generateSimplePDF } from "../utils/pdf";
 import { saveComanda } from "../lib/supabase";
 import {
   CONTACT,
@@ -86,17 +86,32 @@ export default function ResultScreen({ segment, guests, packageId, selected, onB
 
   const handleDownloadPDF = async () => {
     await salvarComanda();
-    await generateComandaPDF({
-      segment: seg,
-      guests,
-      packageId,
-      pkg,
-      selectedDrinks: drinks,
-      perPerson,
-      totalEvent,
-      number,
-      date,
-    });
+    try {
+      await generateComandaPDF({
+        segment: seg,
+        guests,
+        packageId,
+        pkg,
+        selectedDrinks: drinks,
+        perPerson,
+        totalEvent,
+        number,
+        date,
+      });
+    } catch (e) {
+      console.error("PDF principal falhou, usando fallback", e);
+      generateSimplePDF({
+        segment: seg,
+        guests,
+        packageId,
+        pkg,
+        selectedDrinks: drinks,
+        perPerson,
+        totalEvent,
+        number,
+        date,
+      });
+    }
   };
 
   return (
