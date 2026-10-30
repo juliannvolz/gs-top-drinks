@@ -4,7 +4,7 @@ import { LogIn, Phone, Clock, CheckCircle, XCircle, Menu, Search } from "lucide-
 import { Btn, EASE, TextLink } from "../components/ui";
 import { listComandas, updateComandaStatus } from "../lib/supabase";
 
-const ADMIN_PASSWORD = import.meta.env.VITE_ADMIN_PASSWORD || "gstropdrinks1";
+const ADMIN_PASSWORD = (import.meta.env.VITE_ADMIN_PASSWORD || "gstropdrinks1").trim();
 
 type Status = "pendente" | "contatado" | "fechado";
 
@@ -42,7 +42,7 @@ export default function Admin() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === ADMIN_PASSWORD) {
+    if (password.trim() === ADMIN_PASSWORD) {
       setAuthenticated(true);
       setLoginError("");
       localStorage.setItem("gs_admin_auth", "1");
